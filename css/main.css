@@ -1,0 +1,117 @@
+#survey {
+  background: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  right: 20px;
+  height: 600px;
+  position: fixed;
+  width: 350px;
+  font-family: 'sans-serif';
+}
+
+.chatHeader {
+  background: #333;
+  border-bottom: 5px solid #1a6b96;
+}
+
+.chatHeader > img {
+  height: 40px;
+  margin: 10px;
+}
+
+#chatClose {
+  float: right;
+  margin: 20px 20px;
+  color: #fff;
+}
+
+.chatContent h1 {
+  padding: 40px 20px 20px 40px;
+  font-size: 24px;
+}
+
+.chatFooter {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  background-color: #ccc;
+  margin-top: 4.8%;
+  line-height: 2.8;
+  text-align: center;
+}
+
+form {
+  padding-left: 40px;
+  line-height: 1.8;
+}
+
+input, select {
+  border-radius: 4px;
+  height: 30px;
+  width: 88%;
+  border-width: 1px;
+  border-color: #ccc;
+  font-size: 14px;
+}
+
+textarea {
+  border-radius: 4px;
+  height: 50px;
+  width: 88%;
+  border-width: 1px;
+  border-color: #ccc;
+  font-size: 14px;
+}
+
+#states {
+  width: 89%;
+  margin-bottom: 12px;
+}
+
+button{
+  float: right;
+  margin-right: 9%;
+  height: 40px;
+  width: 100px;
+  border-radius: 4px;
+  border-width: 1px;
+  color: white;
+  background-color: #2377B9;
+  cursor: pointer;
+}
+
+.focus {
+  margin-bottom: 12px;
+}
+
+.focus:focus {
+  background-color: #CAF7FE;
+  padding-left: 10px;
+}
+
+#required {
+  float: right;
+  padding-right: 25px;
+}
+
+::-webkit-input-placeholder {
+   font-style: italic;
+   padding-left: 10px;
+}
+:-moz-placeholder {
+   font-style: italic;  
+   padding-left: 10px;
+}
+::-moz-placeholder {
+   font-style: italic;
+   padding-left: 10px;  
+}
+:-ms-input-placeholder {  
+   font-style: italic;
+   padding-left: 10px; 
+}
+#thankyouMessage {
+  display: none;
+
+}
